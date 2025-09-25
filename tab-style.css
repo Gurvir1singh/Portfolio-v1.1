@@ -1,0 +1,43 @@
+@media (max-width:768px){
+    #top-nav{
+        font-size:.8rem;
+        justify-content: space-between;
+        padding:1em 5em;
+
+    }
+     #hamburger{
+        display:flex;
+     }
+     #nav-menu{
+        /* display:none; */
+     }
+     #top-nav button{
+        /* display:none; */
+     }
+
+
+    #hamburger {
+        display: none;
+    }
+
+    header{
+        font-size:.7rem;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+    header #right{
+        width:80%;
+        /* padding-right: 5rem; */
+    }
+    #right #text-container{
+        justify-content: center;
+        align-items: center;
+        
+        text-align:center;
+    }
+    #right #text-container p{
+        text-align:center;
+    }
+}
+
