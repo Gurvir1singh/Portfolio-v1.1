@@ -515,7 +515,7 @@ section::after {
 
 /* footer section start form here */
 footer{
-    background: gray;
+    background: rgb(207, 206, 206);
     display:flex;
     justify-content: space-around;
     align-items: center;
@@ -552,11 +552,6 @@ footer .rows{
 footer .rows .link{
     font-size:2em;
 }
-
-
-section {}
-
-main {}
 
 .cta-btn {
     width: fit-content;
