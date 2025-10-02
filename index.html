@@ -8,37 +8,38 @@
     <!-- remix icon cdn -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
     <!-- locomotive css -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="web-style.css">
     <link rel="stylesheet" href="tab-style.css">
-    <link rel="stylesheet" href="mobile-style.css">
+    <!-- <link rel="stylesheet" href="web-style.css"> -->
+    <!-- <link rel="stylesheet" href="mobile-style.css"> -->
 
-    
+
 </head>
 
 <body>
-
     <main>
         <nav id="top-nav">
-            <div id="nav-logo">Gurvir Singh</div>
-            <div id="hamburger">
-                <div id="line1" class="line"></div>
-                <div id="line2" class="line"></div>
-                <div id="line3" class="line"></div>
-            </div>
-            <div id="nav-menu" class="web-view mobile-view">
-                <ul class="nav-links">
-                    <li class="nav-link">Home</li>
-                    <li class="nav-link">About</li>
-                    <li class="nav-link">Projects</li>
-                    <li class="nav-link">Services</li>
-                    <li class="nav-link">contact</li>
+            <div id="nav-logo"><h1>Gurvir Singh</h1></div>
+            <div id="nav-menu">
+                <ul class="nav-links" onclick=navtoggle()>
+                    <li class="nav-link"><a href="#header">Home</a></li>
+                    <li class="nav-link"><a href="#about">About</a></li>
+                    <li class="nav-link"><a href="#projects">Projects</a></li>
+                    <li class="nav-link"><a href="#services">Services</a></li>
+                    <li class="nav-link"><a href="#contact">contact</a></li>
                 </ul>
             </div>
             <button class="cta-btn">
                 Hire Me
             </button>
+            <div class="hamburger" onclick="navtoggle()">
+                <div id="line-warper" class="menu">
+                    <div class="line" id="line1"></div>
+                    <div class="line" id="line2"></div>
+                    <div class="line" id="line3"></div>
+                </div>
+            </div>
         </nav>
         <header>
             <div id="left">
@@ -94,7 +95,7 @@
                     <button class="cta-btn">Work Togeather</button>
                 </div>
                 <div class="text-container">
-                    <div class="numbers">01</div>
+                    <div class="numbers">03</div>
                     <h2>Seo</h2>
                     <p class="desc">
                         Visually stunning web designs that captivate your audience by blending your brand voice and
@@ -171,49 +172,50 @@
                 </div>
             </div>
         </section>
-        <section id="contact-us"> 
+        <section id="contact-us">
             <h2 id="t1-heading">Let's Talk</h2>
             <div class="content">
                 <h4>Hi 👋 I'm Gurvir singh</h4>
                 <h4>Creative Full-Stack Developer</h4>
                 <h4>Turing ideas into scalable digital solutions.</h4>
                 <div class="btn-container">
-                    <button class="cta-btn">Hire Me</button><button class="cta-btn" href="./CV Gurvir (1).pdf">Download CV</button>
+                    <button class="cta-btn">Hire Me</button><button class="cta-btn" href="./CV Gurvir (1).pdf">Download
+                        CV</button>
                 </div>
             </div>
-        
+
         </section>
         <footer>
-            <div class="first-line rows">
-                <div class="f1-heading">
-                    Social links
+            <div class="content">
+                <div class="first-line rows">
+                    <div class="f1-heading">
+                        Social links
+                    </div>
+                    <div class="link" id="link1">facebook</div>
+                    <div class="link" id="link2">instagram</div>
+                    <div class="link" id="link3">twiter</div>
+                    <div class="link" id="link4">github</div>
+                    <div class="link" id="link5">linkedin</div>
                 </div>
-                <div class="link" id="link1">facebook</div>
-                <div class="link" id="link2">instagram</div>
-                <div class="link" id="link3">twiter</div>
-                <div class="link" id="link4">github</div>
-                <div class="link" id="link5">linkin</div>
-            </div>
-            <div class="second-line rows">
-                <div class="f1-heading">
-                    Pages
+                <div class="second-line rows">
+                    <div class="f1-heading">
+                        Pages
+                    </div>
+                    <div class="link" id="link1">About us</div>
+                    <div class="link" id="link2">Contact us</div>
+                    <div class="link" id="link3">Projects</div>
                 </div>
-                <div class="link" id="link1">facebook</div>
-                <div class="link" id="link2">instagram</div>
-                <div class="link" id="link3">twiter</div>
-                <div class="link" id="link4">github</div>
-                <div class="link" id="link5">linkin</div>
-            </div>
-            <div class="third-line rows">
-                <div class="f1-heading">
-                    Importent links
+                <div class="third-line rows">
+                    <div class="f1-heading">
+                        Importent links
+                    </div>
+                    <div class="link" id="link1">Sitemap</div>
+                    <div class="link" id="link2">robots</div>
+                  
                 </div>
-                <div class="link" id="link1">facebook</div>
-                <div class="link" id="link2">instagram</div>
-                <div class="link" id="link3">twiter</div>
-                <div class="link" id="link4">github</div>
-                <div class="link" id="link5">linkin</div>
             </div>
+            <div class="copytights">&copy;2025 </div>
+
         </footer>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
